@@ -1,5 +1,8 @@
 # cq-picsearcher-bot
 
+自用
+项目原地址：https://github.com/Tsuk1ko/cq-picsearcher-bot.git
+
 这是一个以 Node.js 编写的酷Q机器人程序，用于搜图、搜番、搜本子，并夹带了许多娱乐向功能（。）
 
 因酷Q已停止运营，本程序转为适配 [go-cqhttp](https://github.com/Mrs4s/go-cqhttp)，初期可能 bug 很多，请支持并耐心等待 go-cqhttp 的完善
