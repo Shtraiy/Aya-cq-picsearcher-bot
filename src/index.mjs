@@ -135,7 +135,7 @@ bot
     console.log(`连接成功[${wsType}]#${attempts}`);
     if (wsType === '/api') {
       setTimeout(() => {
-        sendMsg2Admin(`已上线#${attempts}`);
+        sendMsg2Admin(`Aya已上线#${attempts}`);
       }, 1000);
     }
   });
@@ -178,7 +178,7 @@ async function commonHandle(e, context) {
     return true;
   }
   if (context.message === '--about') {
-    replyMsg(context, 'https://github.com/Tsuk1ko/cq-picsearcher-bot');
+    replyMsg(context, 'https://github.com/Shtraiy/Aya-cq-picsearcher-bot');
     return true;
   }
 
