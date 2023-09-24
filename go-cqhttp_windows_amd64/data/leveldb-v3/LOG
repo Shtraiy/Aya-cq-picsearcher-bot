@@ -1347,3 +1347,8 @@
 12:24:58.474079 table@remove removed @351
 12:24:58.474079 table@remove removed @348
 12:24:58.474579 table@remove removed @347
+13:44:38.254284 memdb@flush N·169 S·31KiB
+13:44:38.256179 memdb@flush created L0@361 N·169 S·20KiB "\x00\x11\xf3=,v11901":"\xfey4\xbb,v11957"
+13:44:38.256390 version@stat F·[1 1] S·1MiB[20KiB 1MiB] Sc·[0.25 0.02]
+13:44:38.257179 memdb@flush committed F·1 T·2.8949ms
+13:44:38.257680 journal@remove removed @357

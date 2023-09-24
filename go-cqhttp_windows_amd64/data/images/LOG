@@ -1255,3 +1255,8 @@
 09:43:35.652110 version@stat F·[2 1] S·97KiB[1KiB 96KiB] Sc·[0.50 0.00]
 09:43:35.655110 db@janitor F·5 G·0
 09:43:35.655110 db@open done T·5.4992ms
+14:24:50.078803 memdb@flush N·19 S·3KiB
+14:24:50.084852 memdb@flush created L0@332 N·19 S·2KiB "\x0e\x806..&n/,v1386":"\xee\xe1\xc3..>Ic,v1392"
+14:24:50.084852 version@stat F·[3 1] S·100KiB[4KiB 96KiB] Sc·[0.75 0.00]
+14:24:50.085353 memdb@flush committed F·1 T·6.4877ms
+14:24:50.085353 journal@remove removed @329
