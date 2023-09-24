@@ -141,7 +141,7 @@ async function doSearch(imgURL, db, debug = false) {
           // 相似度
           if (similarity < global.config.bot.saucenaoLowAcc) {
             lowAcc = true;
-            warnMsg += `相似度 ${simText}% 过低，如果这不是你要找的图，那么可能：确实找不到此图\n图为原图的局部图\n图清晰度太低\n搜索引擎尚未同步新图`;
+            warnMsg += `相似度 ${simText}% 过低，如果这不是你要找的图，那么有以下可能：\n1.确实找不到此图\n2.图为原图的局部图\n3.图清晰度太低\n4.搜索引擎尚未同步新图`;
             if (global.config.bot.useAscii2dWhenLowAcc && (db === snDB.all || db === snDB.pixiv))
               warnMsg += '自动使用 ascii2d 进行搜索\n';
           }
